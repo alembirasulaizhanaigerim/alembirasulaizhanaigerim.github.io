@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+  margin:0px 166px;
+}
+.header{
+  
+  background-blend-mode: multiply;
+  background-color: #2e3a44;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header-line{
+  padding-top:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px ;
+  margin-right: 25px;
+
+  transition:color 0.3s linear;
+
+}
+.nav-item:hover{
+  color: orange ;
+}
+
+.card {
+  border-right: 1px solid #FFFFFF;
+  padding-right:10px ;
+  height: 50px;
+}
+
+.num{
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition:color 0.3s linear;
+
+}
+
+.num:hover{
+   color: #FF7400;
+}
+.phone-text{
+  font-size:14px;
+  font-weight: 400;
+  color:#fff;
+
+}
+
+.phone-holder{
+  display: flex;
+  align-items: center;
+}
+
+.button{
+  background-color: #FF7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px ;
+  font-weight: 700;
+  transition: color 0.2s linear ;
+}
+.button:hover{
+  color: #6c3b14;
+}
+.header-down{
+    position: relative;
+}
+
+
+
+.header-title{
+  color:#D67E35;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight:400 ;
+  text-align: center;
+  margin-top: 122px;
+  position: absolute;
+  left: 0;
+  margin-bottom: 12px;
+}
+.header-subtitle{
+font-size: 40px;
+}
+.header-suptitle{
+   color:#fff;
+   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+
+.header-suptitle::after{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 163px;
+  left: 56px;
+}
+.header-suptitle::before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 163px;
+  left: 240px;
+}
+.header-button{
+  background-color: #FF7400;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 14px;
+  font-weight:700;
+  font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   transition: background-color 0.3s linear;
+}
+
+.header-button:hover{
+  background-color: #4a2f19;
+
+}
+.bg{
+  margin-left: 350px;
+  margin-right: 100px;
+  margin-top: 5px;
+  height: 400px;
+  width: 800px;
+  top: 0;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.356);
+  position: sticky;
+}
+.wrd{
+ 
+  color: #fff;
+  text-decoration: none;
+  margin-left: 280px;
+  margin-top: 10px;
+  height: 20px;
+  width: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  
+ 
+}

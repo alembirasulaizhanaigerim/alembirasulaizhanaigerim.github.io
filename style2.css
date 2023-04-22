@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+  margin:0px 166px;
+} 
+.header-line{
+  padding-top:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px ;
+  margin-right: 25px;
+
+  transition:color 0.3s linear;
+
+}
+.nav-item:hover{
+  color: orange ;
+}
+
+.card {
+  border-right: 1px solid #FFFFFF;
+  padding-right:10px ;
+  height: 50px;
+}
+
+.num{
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition:color 0.3s linear;
+
+}
+
+.num:hover{
+   color: #FF7400;
+}
+.phone-text{
+  font-size:14px;
+  font-weight: 400;
+  color:#fff;
+
+}
+
+.phone-holder{
+  display: flex;
+  align-items: center;
+}
+
+.button{
+  background-color: #FF7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px ;
+  font-weight: 700;
+  transition: color 0.2s linear ;
+}
+.button:hover{
+  color: #6c3b14;
+}
+.header{
+  background-blend-mode: multiply;
+  background-color: #72899d;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home1 {
+  background-image: url(https://gpark.kz/images/zhk/Luxemburg.jpg);
+  image-rendering: optimizeQuality;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%)
+}
+#home2 {
+  background-image: url(https://gpark.kz/images/zhk/jeneva.jpg);
+  image-rendering: optimizeQuality;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%)
+}
+#home3 {
+  background-image: url(https://gpark.kz/images/zhk/madrid.jpg);
+  image-rendering: optimizeQuality;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%)
+}
+.nav-item2 {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px ;
+  margin: 70px 250px;
+
+}
+#title1 {
+  padding-top: 120px;
+  padding-left: 760px;
+
+}
+#title2 {
+  padding-top: 130px;
+  padding-left: 840px;
+
+}
+#title3 {
+  padding-top: 100px;
+  padding-left: 25px;
+
+}
+.button{
+  background-color: #FF7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px ;
+  font-weight: 700;
+  transition: color 0.2s linear ;
+}
+.button:hover{
+  color: #6c3b14;
+}
